@@ -1,0 +1,4 @@
+Create database E_Commerce;
+use E_Commerce;
+create table ProductInfo(P_Id int not null auto_increment,P_Name varchar(20) not null,P_Description text not null,Price int not null,Quantity int not null , primary key(P_Id));
+create table CustomerInfo(Email varchar(20) not null,Password varchar(20) not null,CustomerName varchar(20) not null,MobileNumber varchar(10),primary key(Email));
